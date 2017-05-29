@@ -12,9 +12,14 @@
 
   .card {
 
+    position: relative;
+    overflow: visible;
+
     @include breakpoint(small) {
       width: 100%;
-      img { width: 100%; }
+      background-image: url("https://placeimg.com/300/200/animals");
+      background-repeat: no-repeat;
+      background-size: cover;
     }
 
     @include breakpoint(medium) {
@@ -23,6 +28,31 @@
 
     .card-content {
       padding: 1rem;
+      background: rgba(35,173,77,0.4);
+      height: 100%;
+      width: 100%;
+      color: white;
+    }
+
+    .logo_carte {
+      position: relative;
+      width: 50%;
+      height: auto;
+    }
+
+    p.texte_carte {
+      font-size: 17;
+      font-weight: "semi_bold";
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .btn_small{
+      position: absolute;
+      bottom: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      margin: 0;
     }
 
   }

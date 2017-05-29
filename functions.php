@@ -14,6 +14,10 @@
  * @since FoundationPress 1.0.0
  */
 
+define ("_HOME", 2);
+define ("_PAGE_COOP", 5);
+
+
 /** Various clean up functions */
 require_once( 'library/cleanup.php' );
 
