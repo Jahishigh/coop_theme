@@ -1,4 +1,7 @@
 .flex-card-example {
+
+  padding-bottom: 100px;
+
   @include breakpoint(small) {
     display: flex;
     flex-direction: column;
@@ -17,7 +20,6 @@
 
     @include breakpoint(small) {
       width: 100%;
-      background-image: url("https://placeimg.com/300/200/animals");
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -28,10 +30,28 @@
 
     .card-content {
       padding: 1rem;
-      background: rgba(35,173,77,0.4);
+      // background: rgba(35,173,77,0.4);
       height: 100%;
       width: 100%;
       color: white;
+    }
+
+    .card-vapeur {
+      background: url(../images/central-card.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .card-avlab {
+      background: url(../images/avlab-card.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .card-nojo {
+      background: url(../images/nojo-card.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
     }
 
     .logo_carte {
@@ -49,10 +69,18 @@
 
     .btn_small{
       position: absolute;
-      bottom: -20px;
+      bottom: -15px;
       left: 50%;
       transform: translateX(-50%);
       margin: 0;
+    }
+
+    .card-content-blog {
+      background: rgba(255,209,15,0.7);
+      padding: 1rem;
+      height: 100%;
+      width: 100%;
+      color: white;
     }
 
   }
