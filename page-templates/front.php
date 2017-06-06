@@ -4,6 +4,10 @@ Template Name: Front
 */
 get_header(); ?>
 
+<div class="container_top">
+	<img src="wp-content/themes/coop_theme/assets/images/slide.jpg" alt="" width="100%" height="100%" />
+	<h1 class="yellow_letters">Les travaux commencent !</h1>
+</div>
 <div class="container container_welcome row text-center">
 	<h1>Bienvenue sur le site de la <span class="yellow_letters">Coop</span> !</h1>
 	<p>
@@ -15,7 +19,7 @@ get_header(); ?>
 
 <div class="container container_yellow text-center">
 	<div class="row">
-		<h2>Les projets</h2>
+		<h2 class="yellow-back">Les projets</h2>
 		<div class="flex-card-example">
 			<div class="card text-center">
 				<div class="card-content card-vapeur">
@@ -45,26 +49,26 @@ get_header(); ?>
 
 <div class="container container_green">
 	<div class="row">
-		<h2 class="text-center">Le blog</h2>
+		<h2 class="text-center green-back">Le blog</h2>
 		<div class="flex-card-example">
 			<div class="card">
-				<div class="card-content-blog">
+				<div class="card-content-blog blog-expo">
 					<h4>L'expo à ne pas manquer !</h4>
-					<p>L'Ososphère n'était pas que musique ! Les anciens bâtiments de la Coop ont été aménagé pour une magnifique exposition d'art ce week end</p>
+					<p class="text_card">L'Ososphère n'était pas que musique ! Les anciens bâtiments de la Coop ont été aménagé pour une magnifique exposition d'art ce week end</p>
 					<a href="#">Lire la suite ></a>
 				</div>
 			</div>
 			<div class="card">
-				<div class="card-content-blog">
-					<h4>L'expo à ne pas manquer !</h4>
-					<p>L'Ososphère n'était pas que musique ! Les anciens bâtiments de la Coop ont été aménagé pour une magnifique exposition d'art ce week end</p>
+				<div class="card-content-blog blog-traveaux">
+					<h4>Les travaux commence !</h4>
+					<p class="text_card">La virgule s'active ! Retrouvez toutes les prévisions pour la rénovation des anciens bâtiments de la Coop</p>
 					<a href="#">Lire la suite ></a>
 				</div>
 			</div>
 			<div class="card">
-				<div class="card-content-blog">
-					<h4>L'expo à ne pas manquer !</h4>
-					<p>L'Ososphère n'était pas que musique ! Les anciens bâtiments de la Coop ont été aménagé pour une magnifique exposition d'art ce week end</p>
+				<div class="card-content-blog blog-lerecap">
+					<h4>L'Ososphère : le récap</h4>
+					<p class="text_card">2017 a accueilli une nouvelle fois une édition de l'Ososphère. Vous l'avez manqué ? Voici le récap</p>
 					<a href="#">Lire la suite ></a>
 				</div>
 			</div>

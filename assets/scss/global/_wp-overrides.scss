@@ -29,17 +29,23 @@ p.wp-caption-text{
   margin-right: auto;
 }
 
+.footer-container {
+  border-top: none !important;
+}
+
 .container {
   padding-top: 150px;
   padding-bottom: 150px;
 }
 
 .container_yellow {
-  background: #FFD10F;
+  background: url(../images/background-yellow.png);
+  background-repeat: no-repeat;
 }
 
 .container_green {
-  background: #23AD4D;
+  background: url(../images/background-green.png);
+  background-repeat: no-repeat;
 }
 
 h1 {
