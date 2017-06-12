@@ -20,11 +20,11 @@
 				<a href="#">Le blog</a>
 				<a href="#">Nous trouver</a>
 				<p>1-3 rue de la Coopérative 67000 Strasbourg</p>
-				<img src="../wp-content/themes/coop_theme/assets/images/facebook.png" alt="" class="imgfooter" />
-				<img src="../wp-content/themes/coop_theme/assets/images/twitter.png" alt="" class="imgfooter" />
-				<img src="../wp-content/themes/coop_theme/assets/images/instagram.png" alt="" class="imgfooter" />
+				<img src="wp-content/themes/coop_theme/assets/images/facebook.png" alt="" class="imgfooter" />
+				<img src="wp-content/themes/coop_theme/assets/images/twitter.png" alt="" class="imgfooter" />
+				<img src="wp-content/themes/coop_theme/assets/images/instagram.png" alt="" class="imgfooter" />
 				<a href="#" class="large button">S'inscrire à la newsletter</a>
-				<img class="arrowup" src="../wp-content/themes/coop_theme/assets/images/arrowup.png" alt="" />
+				<img class="arrowup" src="wp-content/themes/coop_theme/assets/images/arrowup.png" alt="" />
 			</footer>
 		</div>
 
